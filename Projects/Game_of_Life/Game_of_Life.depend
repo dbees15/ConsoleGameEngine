@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1590945169 source:c:\users\daniels\documents\random stuff\c++\2021\game_of_life\consoleengine.cpp
+	"ConsoleEngine.h"
+
+1590872684 c:\users\daniels\documents\random stuff\c++\2021\game_of_life\consoleengine.h
+	<iostream>
+	<math.h>
+	<random>
+	<chrono>
+	<string>
+	<windows.h>
+
+1621714547 source:c:\users\daniels\documents\random stuff\c++\2021\game_of_life\main.cpp
+	<iostream>
+	"GameOfLife.h"
+
+1590945169 source:c:\users\daniels\documents\random stuff\c++\2021\game_of_life\src\consoleengine.cpp
+	"ConsoleEngine.h"
+
+1590872684 c:\users\daniels\documents\random stuff\c++\2021\game_of_life\include\consoleengine.h
+	<iostream>
+	<math.h>
+	<random>
+	<chrono>
+	<string>
+	<windows.h>
+
+1622328107 source:c:\users\daniels\documents\random stuff\c++\2021\game_of_life\src\gameoflife.cpp
+	"GameOfLife.h"
+
+1621714285 c:\users\daniels\documents\random stuff\c++\2021\game_of_life\include\gameoflife.h
+	"ConsoleEngine.h"
+	"Gol.h"
+
+1621672855 c:\users\daniels\documents\random stuff\c++\2021\game_of_life\include\gol.h
+	<string>
+	<sstream>
+
+1621672855 source:c:\users\daniels\documents\random stuff\c++\2021\game_of_life\src\gol.cpp
+	"Gol.h"
+

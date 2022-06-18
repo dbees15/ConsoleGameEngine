@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1623887706 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\main.cpp
+	<iostream>
+	"Application.h"
+
+1590945169 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\consoleengine.cpp
+	"ConsoleEngine.h"
+
+1590872684 c:\users\daniels\documents\random stuff\c++\2021\graphics test\consoleengine.h
+	<iostream>
+	<math.h>
+	<random>
+	<chrono>
+	<string>
+	<windows.h>
+
+1623890166 c:\users\daniels\documents\random stuff\c++\2021\graphics test\include\application.h
+	<vector>
+	<math.h>
+	<string>
+	<ctime>
+	"ConsoleEngine.h"
+	"Vector3d.h"
+	"Object.h"
+	"Camera.h"
+	"Sphere.h"
+
+1590872684 c:\users\daniels\documents\random stuff\c++\2021\graphics test\include\consoleengine.h
+	<iostream>
+	<math.h>
+	<random>
+	<chrono>
+	<string>
+	<windows.h>
+
+1622508929 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\src\consoleengine.cpp
+	"ConsoleEngine.h"
+
+1623914971 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\src\application.cpp
+	"Application.h"
+
+1622932535 c:\users\daniels\documents\random stuff\c++\2021\graphics test\include\vector3d.h
+	<math.h>
+
+1622932535 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\src\vector3d.cpp
+	"Vector3d.h"
+
+1623889303 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\src\object.cpp
+	"Object.h"
+
+1623889303 c:\users\daniels\documents\random stuff\c++\2021\graphics test\include\object.h
+	"Vector3d.h"
+	"ConsoleEngine.h"
+	<string>
+
+1623277563 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\src\sphere.cpp
+	"Sphere.h"
+
+1623277563 c:\users\daniels\documents\random stuff\c++\2021\graphics test\include\sphere.h
+	"Vector3d.h"
+	"Object.h"
+
+1623214709 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\src\camera.cpp
+	"Camera.h"
+
+1622932918 c:\users\daniels\documents\random stuff\c++\2021\graphics test\include\camera.h
+	"Object.h"
+	"Vector3d.h"
+	"Vector2d.h"
+
+1590878187 c:\users\daniels\documents\random stuff\c++\2021\graphics test\include\vector2d.h
+	<math.h>
+	<iostream>
+
+1622932108 source:c:\users\daniels\documents\random stuff\c++\2021\graphics test\src\vector2d.cpp
+	"Vector2d.h"
+
