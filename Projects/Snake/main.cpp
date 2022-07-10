@@ -94,7 +94,7 @@ public:
     {
         if(body[0]==food)
         {
-            Beep(200,100);
+            //Beep(200,100);
             grow();
             relocate_food();
             score++;
@@ -119,7 +119,7 @@ public:
 
     void die()
     {
-        Beep(90,200);
+        //Beep(90,200);
         score = 0;
         body.clear();
         headDirection = Direction::UP;
@@ -252,7 +252,7 @@ private:
 
 int main()
 {
-    Demo d(100,80);
+    Demo d(30,30);
     d.startLoop();
 
     return 0;

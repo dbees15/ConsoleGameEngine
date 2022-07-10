@@ -1,7 +1,7 @@
 #include "GameOfLife.h"
 
 GameOfLife::GameOfLife(int x, int y)
-: ConsoleEngine(x,y), m_game(50,50,"123","12"), m_game1(50,50,"34","345")
+: ConsoleEngine(x,y), m_game(50,50,"3","23"), m_game1(50,50,"34","345")
 {
     counter=0;
     m_game0x = 1;
@@ -61,8 +61,9 @@ void GameOfLife::loopMain()
     //draw to screen
 
     drawText(("Generation: "+std::to_string(m_game.getGeneration())),COLOR::WHITE,1,1);
+    drawText(("Generation: "+std::to_string(m_game1.getGeneration())),COLOR::WHITE,56,1);
     drawGame(&m_game,1,3);
-    drawGame(&m_game1,1,56);
+    drawGame(&m_game1,56,3);
 
 }
 
